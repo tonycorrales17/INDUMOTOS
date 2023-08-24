@@ -1,0 +1,365 @@
+.carrusel-contenedor
+{
+    position: relative;
+}
+.carrusel-anterior, .carrusel-siguiente
+{
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 25px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color: #000;
+    opacity: 20%;
+}
+.carrusel-anterior
+{
+    left: -30px;
+}
+.carrusel-siguiente
+{
+    right: -30px;
+}
+.carrusel-lista
+{
+    overflow: hidden;
+}
+.carrusel-elemento
+{
+    text-align: center;
+}
+.carrusel-anterior, .carrusel-siguiente:hover
+{
+    opacity: 100%;
+}
+.carrusel-indicadores .glider-dot
+{
+    display: block;
+    width: 30px;
+    height: 4px;
+    background: #fff;
+    opacity: .2;
+    border-radius: 0;
+}
+.carrusel-indicadores .glider-dot:hover
+{
+    opacity: .5;
+}
+.carrusel-indicadores .glider-dot.active
+{
+    opacity: 1;
+}
+.carrusel-elemento:hover
+{
+    box-shadow: 0 0 20px 0px rgb(0, 0, 0, 0.2);
+}
+/**/
+.carrusel-contenedor1
+{
+    position: relative;
+}
+.carrusel-anterior1, .carrusel-siguiente1
+{
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 25px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color: #000;
+    opacity: 20%;
+}
+.carrusel-anterior1
+{
+    left: -30px;
+}
+.carrusel-siguiente1
+{
+    right: -30px;
+}
+.carrusel-lista1
+{
+    overflow: hidden;
+}
+.carrusel-elemento1
+{
+    text-align: center;
+}
+.carrusel-anterior1, .carrusel-siguiente1:hover
+{
+    opacity: 100%;
+}
+.carrusel-indicadores1 .glider-dot
+{
+    display: block;
+    width: 30px;
+    height: 4px;
+    background: #fff;
+    opacity: .2;
+    border-radius: 0;
+}
+.carrusel-indicadores1 .glider-dot:hover
+{
+    opacity: .5;
+}
+.carrusel-indicadores1 .glider-dot.active
+{
+    opacity: 1;
+}
+.carrusel-elemento1:hover
+{
+    box-shadow: 0 0 20px 0px rgb(0, 0, 0, 0.2);
+}
+/**/
+.carrusel-contenedor2
+{
+    position: relative;
+}
+.carrusel-anterior2, .carrusel-siguiente2
+{
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 25px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color: #000;
+    opacity: 20%;
+}
+.carrusel-anterior2
+{
+    left: -30px;
+}
+.carrusel-siguiente2
+{
+    right: -30px;
+}
+.carrusel-lista2
+{
+    overflow: hidden;
+}
+.carrusel-elemento2
+{
+    text-align: center;
+}
+.carrusel-anterior2, .carrusel-siguiente2:hover
+{
+    opacity: 100%;
+}
+.carrusel-indicadores2 .glider-dot
+{
+    display: block;
+    width: 30px;
+    height: 4px;
+    background: #fff;
+    opacity: .2;
+    border-radius: 0;
+}
+.carrusel-indicadores2 .glider-dot:hover
+{
+    opacity: .5;
+}
+.carrusel-indicadores2 .glider-dot.active
+{
+    opacity: 1;
+}
+.carrusel-elemento2:hover
+{
+    box-shadow: 0 0 20px 0px rgb(0, 0, 0, 0.2);
+}
+/*3*/
+.carrusel-contenedor3
+{
+    position: relative;
+}
+.carrusel-anterior3, .carrusel-siguiente3
+{
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 25px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color: #000;
+    opacity: 20%;
+}
+.carrusel-anterior3
+{
+    left: -30px;
+}
+.carrusel-siguiente3
+{
+    right: -30px;
+}
+.carrusel-lista3
+{
+    overflow: hidden;
+}
+.carrusel-elemento3
+{
+    text-align: center;
+}
+.carrusel-anterior3, .carrusel-siguiente3:hover
+{
+    opacity: 100%;
+}
+.carrusel-indicadores3 .glider-dot
+{
+    display: block;
+    width: 30px;
+    height: 4px;
+    background: #fff;
+    opacity: .2;
+    border-radius: 0;
+}
+.carrusel-indicadores3 .glider-dot:hover
+{
+    opacity: .5;
+}
+.carrusel-indicadores3 .glider-dot.active
+{
+    opacity: 1;
+}
+.carrusel-elemento3:hover
+{
+    box-shadow: 0 0 20px 0px rgb(0, 0, 0, 0.2);
+}
+/*4*/
+.carrusel-contenedor4
+{
+    position: relative;
+}
+.carrusel-anterior4, .carrusel-siguiente4
+{
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 25px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color: #000;
+    opacity: 20%;
+}
+.carrusel-anterior4
+{
+    left: -30px;
+}
+.carrusel-siguiente4
+{
+    right: -30px;
+}
+.carrusel-lista4
+{
+    overflow: hidden;
+}
+.carrusel-elemento4
+{
+    text-align: center;
+}
+.carrusel-anterior4, .carrusel-siguiente4:hover
+{
+    opacity: 100%;
+}
+.carrusel-indicadores4 .glider-dot
+{
+    display: block;
+    width: 30px;
+    height: 4px;
+    background: #fff;
+    opacity: .2;
+    border-radius: 0;
+}
+.carrusel-indicadores4 .glider-dot:hover
+{
+    opacity: .5;
+}
+.carrusel-indicadores4 .glider-dot.active
+{
+    opacity: 1;
+}
+.carrusel-elemento4:hover
+{
+    box-shadow: 0 0 20px 0px rgb(0, 0, 0, 0.2);
+}
+/*5*/
+.carrusel-contenedor5
+{
+    position: relative;
+}
+.carrusel-anterior5, .carrusel-siguiente5
+{
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 25px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background: none;
+    color: #000;
+    opacity: 20%;
+}
+.carrusel-anterior5
+{
+    left: -30px;
+}
+.carrusel-siguiente5
+{
+    right: -30px;
+}
+.carrusel-lista5
+{
+    overflow: hidden;
+}
+.carrusel-elemento5
+{
+    text-align: center;
+}
+.carrusel-anterior5, .carrusel-siguiente5:hover
+{
+    opacity: 100%;
+}
+.carrusel-indicadores5 .glider-dot
+{
+    display: block;
+    width: 30px;
+    height: 4px;
+    background: #fff;
+    opacity: .2;
+    border-radius: 0;
+}
+.carrusel-indicadores5 .glider-dot:hover
+{
+    opacity: .5;
+}
+.carrusel-indicadores5 .glider-dot.active
+{
+    opacity: 1;
+}
+.carrusel-elemento5:hover
+{
+    box-shadow: 0 0 20px 0px rgb(0, 0, 0, 0.2);
+}

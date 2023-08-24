@@ -1,0 +1,56 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    padding-top: 7rem;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background-attachment: linear-gradient(140deg, #7f5356 0, #7f5452 5%, #7e544e 10%, #7c554b 15%, #7a5747 20%, #785845 25%, #755942 30%, #725b40 35%, #6e5c3f 40%, #6a5e3f 45%, #665f3f 50%, #626040 55%, #5d6241 60%, #586343 65%, #536446 70%, #4e6549 75%, #49664c 80%, #446650 85%, #3f6754 90%, #3a6759 95%, #36675d 100%);
+}
+.hero-btn
+{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover
+{
+    border: 1px solid rgb(241, 206, 6);
+    background: rgb(241, 206, 6);
+    color: #000;
+    transition: 1s;
+}
+.cta1
+{
+    margin: 100px auto;
+    margin-top: 10px;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/banner3.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+    padding-top: 3rem;
+}
+.cta1 h1
+{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+@media(max-width: 700px)
+{
+    .cta1 h1
+    {
+        font-size: 24px;
+    }
+}

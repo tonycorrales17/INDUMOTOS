@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INDUMOTOS | Contacto</title>
+    <link rel="shortcut icon" href="images/indumotos2.ico">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href=" https://unpkg.com/aos@next/dist/aos.css"/>
+</head>
+<body>
+    <section class="sub-header4">
+        <nav>
+            <a href="index.html"><img src="images/looogo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="nosotros.html">NOSOTROS</a></li>
+                    <li><a href="product.html">PRODUCTOS</a></li>
+                    <li><a href="post-venta.html">POST-VENTA</a></li>
+                    <li><a href="promociones.html">PROMOCIONES</a></li>
+                    <li><a href="contacto.html">CONTACTENOS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1 data-aos="zoom-in" data-aos-duration="1000">Contacto</h1>
+    </section>
+    <!--contacto us-->
+    <section class="location">
+        <iframe data-aos="zoom-in" data-aos-duration="1000" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7804.090038859626!2d-76.94037522804106!3d-12.040421723046105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c6a136446dc3%3A0x76039ad7da4b814f!2sPropietarios%20De%20Parque%20Industrial%20El%20Asesor%2C%20Cercado%20de%20Lima!5e0!3m2!1ses-419!2spe!4v1626187815299!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    <section class="contact-us" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Mz Y Lt 6 Urb. Parque Industrial el Asesor</h5>
+                        <p>Ate-Lima</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+51 900 915 270</h5>
+                        <p>Domingos a Viernes - 8am a 7pm</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>indumotosfac@gmail.com</h5>
+                        <p>Envíenos su consulta</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="PHP/enviar.php" method="POST">
+                    <input for="names" type="text" name="nombre" placeholder="Nombres" required>
+                    <input for="names" type="text" name="apellido" placeholder="Apellidos">
+                    <input for="telefono" type="text" name="telefono" placeholder="Teléfono" required>
+                    <input for="correo" type="email" name="correo" placeholder="Correo electrónico" required>
+                    <input for="turno" type="text" name="turno" placeholder="Mañana/Tarde" required>
+                    <input for="fecha" type="date" name="fecha">
+                    <textarea for="mensaje" rows="8" name="mensaje" placeholder="Mensaje (Especifique aquí su consulta)" required></textarea>
+                    <button type="submit" class="hero-btn red-btn" id="btnSend" style="margin-bottom: 4rem;">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="cta1" data-aos="flip-down" data-aos-duration="500">
+        <h1>Si ya eres cliente de la empresa nos gustaría saber lo <br> que piensas de nosotros. Por favor haz click <br> aquí y llena el formulario</h1>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeTcEaXL3CnzVhA-EkAkgZ8GIc_XXksXDxmn06mRgMi59e63Q/viewform?usp=sf_link" target="_blank" class="hero-btn"><b>Haz click aquí</b></a>
+    </section>
+    <!--footer-->
+    <section style="background: #000;" class="footer">
+        <h4 style="color: white;">Visitanos en nuestras redes</h4>
+        <p>
+            Indumotos es una empresa que sabe lo que estas buscando, por eso nuestro trabajo es brindarte a ti la mejor calidad en nuestros producto, la mejor atención, <br> y darte la seguridad de que con nosotros tendrás lo que necesitas. Para saber más de nosotros visítanos en nuestras redes:
+        </p>
+        <div class="icons">
+            <a href="https://www.facebook.com/MOTOS-RONCO-ATE-104212854596004" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/roncomotorsoficial/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UC3xKHICADaF-Nxai3nA0RIQ" target="_blank"><i class="fa fa-youtube"></i></a>
+        </div>
+        <p>Grupo N°1-EFSRT</p>
+    </section>
+    <script async>(function(w, d) { var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.setAttribute("src", "https://app.bluecaribu.com/conversion/integration/a0a9cb485a4453be355c7304d2589f07"); h.appendChild(s); })(window, document);</script>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    <script  src="https://unpkg.com/aos@next/dist/aos.js"></script> 
+    <script> 
+    AOS . init ( ) ; 
+    </script>
+</body>
+</html>

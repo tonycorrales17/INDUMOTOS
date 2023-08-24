@@ -1,0 +1,25 @@
+.about-col1
+{
+    margin-top: 1.9rem;
+    width: 300px;
+    height: 336px;
+    text-align: justify;
+    background: rgba(224, 219, 219, 0.836);
+    padding: 2rem;
+}
+.about-col1 h1
+{
+    font-size: 27px;
+}
+.about-us1
+{
+    width: 80%;
+    margin: auto;
+}
+.hero-btn:hover
+{
+    border: 1px solid rgb(241, 206, 6);
+    background: rgb(241, 206, 6);
+    color: #000;
+    transition: 1s;
+}
